@@ -1,0 +1,194 @@
+%-------------------------
+% Resume in LateX
+% Author : Sourabh Bajaj
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{} % Clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate PDF is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+% Just in case someone needs a heading that does not need to be in a list
+\newcommand{\resumeHeading}[4]{
+    \begin{tabular*}{0.99\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\href{https://mail.google.com/mail/?view=cm&fs=1&to=danilkomarov243242@gmail.com/}{\Large Danil Komarov}} & Email: \href{mailto:danilkomarov243242@gmail.com}{danilkomarov243242@gmail.com}\\
+  \href{https://mail.google.com/mail/?view=cm&fs=1&to=danilkomarov243242@gmail.com/}{danilkomarov243242@gmail.com} & Mobile: \href{tel:+77071234560}{+7-707-123-45-67}\\
+  \href{https://www.linkedin.com/in/danil-komarov/}Linkedin: {linkedin.com/in/danil-komarov} & Telegram:
+  \href{https://t.me/AleXiSs0101/}{@AleXiSs0101}
+\end{tabular*}
+
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Tyumen State University}{Tyumen, Russia}
+      {Bachelor's degree Computer Science}{Sep 2020 -- Jul 2024}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {SpectrumData}{Yekaterinburg, Russia}
+      {Frontend Developer}{Dec 2024 -- Present}
+      \resumeItemListStart
+        \resumeItem
+        {Optimized the frontend part of the application, reducing the loading time of key pages.}
+        \resumeItem
+        {Ensured cross-browser and responsive interface support, which helped expand the user base on mobile devices.}
+        \resumeItem
+        {Developed a strategy for implementing digital accessibility (a11y) in the web version of the product.}
+        \resumeItem
+        {Increased the overall test coverage of the project, improving system reliability and stability.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {SQNS}{Yekaterinburg, Russia}
+      {Fullstack Developer}{Jan 2024 -- DEC 2024}
+      \resumeItemListStart
+        \resumeItem
+        {Introduced solid engineering practices into the project: code reviews and documentation.}
+        \resumeItem
+        {Implemented responsive design and improved user interactions, which reduced the bounce rate.}
+        \resumeItem
+        {Delivered production-ready features quickly for both web and mobile applications.}
+        \resumeItem
+        {Rewrote the payment module.}
+        \resumeItem
+        {Introduced E2E and unit testing, improving code quality and reducing the number of bugs.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Aerokod}{Tyumen, Russia}
+      {Frontend Developer}{Feb 2022 -- Nov 2023}
+      \resumeItemListStart
+        \resumeItem
+        {Optimized page loading speed.}
+        \resumeItem
+        {Collaborated with designers and analysts to improve developer experience.}
+        \resumeItem
+        {Helped implement best development practices (code reviews, unit testing, CI/CD), enhancing overall code quality within the team.}
+        \resumeItem
+        {Actively participated in refactoring legacy code, reducing technical debt and improving frontend readability and maintainability.}
+      \resumeItemListEnd
+      
+
+%-----------PROJECTS-----------------
+\section{Projects}
+  \resumeSubHeadingListStart
+    \resumeSubItem{Xfirm}
+      {A service that lets check all essential information about any company in a single report: data from the Unified State Register of Legal Entities/Individual Entrepreneurs, arbitration cases, financial status, bankruptcy, debts, and much more.}
+    \resumeSubItem{CheckPerson}
+    {A service for background checks of individuals for business purposes}
+    \resumeSubItem{SpectrumBureau}
+    {A service for secure storage of credit histories}
+  \resumeSubHeadingListEnd
+
+
+%--------SKILLS------------
+\section{Skills}
+  \resumeSubHeadingListStart
+    \item{
+      \textbf{Languages}{: JavaScript, TypeScript}
+      \hfill
+      \textbf{Frameworks}{: React.js, Node.js, Express.js, Next.js, Nest.js}
+      \hfill
+      \textbf{Global stores}{: Redux, Zustand, Context API, Redux Toolkit}
+      \hfill
+      \textbf{Testing}{: Jest, React Testing Library, Cypress, Playwright
+      \hfill
+      \textbf{Web Technologies}{: HTML, CSS, REST API, HTTP, SPA, Axios}
+      \hfill
+      \textbf{Tools}{: Git, Docker, Webpack, Vite, Figma}
+      }
+   }
+  \resumeSubHeadingListEnd
+
+
+%-------------------------------------------
+\end{document}
